@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  color:aliceblue;
+  background-color: black;
+  font-family: Lato, sans-serif;
+  margin-top: 20px;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px black;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*CSS PARA LOGO*/
+.miLogo-contenedor{
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miLogo{
+  height: 50px;
+}
+
+/*CSS PARA TAREAS*/
+
+.contenedor-principal-tareas{
+  width: 600px;
+  min-height: 500px;
+  background-color: #fa937cea;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+  border: solid black;
+  box-shadow: 20px 20px #7fd37f8a;
+}

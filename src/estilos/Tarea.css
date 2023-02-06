@@ -1,0 +1,64 @@
+.contenedor-tarea{
+    width: 500px;
+    min-height: 65px;
+    background-color: #dbd0d09c;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 17px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+/*COLORES
+.contenedor-tarea :nth-child(n+1){
+    background-color:#23b6379c;
+}
+
+.contenedor-tarea :nth-child(n+2){
+    background-color:#a31f1f9c;
+}
+
+.contenedor-tarea :nth-child(n+3){
+    background-color:#0000009c;
+}
+
+*/
+
+.texto-tarea{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+    color: #3b613b;
+    font-weight:700;
+}
+
+/*ÍCONOS*/
+
+.icono-cerrar-contenedor{
+    width: 25px;
+    height: 25px;
+}
+
+.icono-cerrar{
+    width: 25px;
+    height: 25px;
+    color: #3b613b;
+}
+
+/*TAREA COMPLETADA*/
+
+.texto-tarea.completada{
+    color: #ffffff;
+}
+.contenedor-tarea.completada{
+    background-color: #548554cc;
+    text-decoration: line-through rgb(0, 0, 0);
+    color: white;
+}
+
